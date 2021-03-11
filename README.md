@@ -10,13 +10,15 @@
 
 “SAT PDF Compilation” (SPC) is designed to scrap, clean and compile data from a specific web source. 
 
-Every year over 2 million of high school students across the United States participate in Scholastic Aptitude Tests (SATs). [CollegeBoard][] makes this data is easily accessible in PDF form by individual state but the data is not easily analyzed in this form. There is also no readily available source where the raw data can be found.
+Every year over 2 million of high school students across the United States participate in Scholastic Aptitude Tests (SATs). [CollegeBoard][] makes this data is easily accessible in PDF form by individual state but the data is not easily analyzed in this form. There is also no readily available source where the raw data can be found. SPC is designed to remidy this delima. 
 
 
 # Table of contents
 
 * [Support](#support)
 * [Overview](#overview)
+* [The Process](#the-process)
+
   * [Web Scrapping](#web-scraping)
   * [Download](#download)
     * [Current and LTS Releases](#current-and-lts-releases)
@@ -38,11 +40,15 @@ Looking for help? Send an email for direct support &lt;hizstor@gmail.com&gt;
 
 ## Overview
 this is the over view
+## The Process
+describe the process
+* **imports**: List needed imports
+
 ## Web Scraping
-explaine the webscraping
+explaine the webscraping process
 
 
-* **Current**: Under active development. Code for the Current release is in the
+* **imports**: List needed imports
   branch for its major version number (for example,
   [v15.x](https://github.com/nodejs/node/tree/v15.x)). Node.js releases a new
   major version every 6 months, allowing for breaking changes. This happens in
