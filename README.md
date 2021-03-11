@@ -20,7 +20,10 @@ Every year over 2 million of high school students across the United States parti
 * [The Process](#the-process)
 
   * [Web Scrapping](#web-scraping)
-  
+  * [PDF Conversion](#pdf-conversion)
+  * [Data Cleaning](#data-cleaning)
+  * [DataFrame Building](#dataframe-building)
+  * [Data Export](#data-Export)
 
 * [Current Project Team Members](#current-project-team-members) 
 
@@ -41,9 +44,14 @@ explaine the webscraping process
 
 
 * **imports**: List needed imports
-  ### Verifying binaries
+  
+## PDF Conversion
 
+## Data Cleaning
 
+## DataFrame Building
+
+## Data Export
 
 ## Current project team members
 * [OsoSuerte](https://github.com/OsoSuerte) -
