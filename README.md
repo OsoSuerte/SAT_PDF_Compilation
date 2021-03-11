@@ -33,7 +33,14 @@ Every year over 2 million of high school students across the United States parti
 Looking for help? Send an email for direct support &lt;hizstor@gmail.com&gt;
 
 ## Overview
-this is the over view
+
+SPC was built with PyCharm 2020.3.3 running Python 3.9.1.
+
+SPC is designed as a first step to automating the process of compiling SAT data. It will first go to the CollegeBoard website containing a PDF file for each state that holds SAT statistics including scores and demographics for the most current year. (Can be modified to collect data from previous years)
+
+Then SPC download and rename each PDF, convert it to a CSV file, clean the data and export it in a format that can be queried, organized and referenced programmatically. This combines all the data from the individual states into one source for convenient access and analysis. 
+
+
 ## The Process
 describe the process
 * **imports**: List needed imports
