@@ -21,7 +21,6 @@ Every year over 2 million of high school students across the United States parti
   * [Web Scrapping](#web-scraping)
   * [PDF Conversion](#pdf-conversion)
   * [Data Cleaning](#data-cleaning)
-  * [DataFrame Building](#dataframe-building)
   * [Data Export](#data-Export)
 
 * [Current Project Team Members](#current-project-team-members) 
@@ -59,9 +58,11 @@ Probably the most challenging part of this project is converting information con
 
 ## Data Cleaning
 
-## DataFrame Building
+As is the case with most data obtained from outside sources, this data has a lot of erroneous or poorly organized information. SPC cleans the data so it can more easily be utilized and understood. Erroneous data is removed and relevant data is reorganized in a way that can be used to create functional lists, dictionaries or DataFrames in Python. This part of the process also combined the data organized by state. 
 
 ## Data Export
+
+Now that the data is clean it can be exported in whatever format is desired. For this project it was exported as a csv file structured as a simple Python dictionary and as a csv file structured as a Pandas DataFrame. The code can easily be modified to export the data in other formats as desired.  
 
 ## Current project team members
 * [OsoSuerte](https://github.com/OsoSuerte) -
