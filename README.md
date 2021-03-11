@@ -17,7 +17,7 @@ Every year over 2 million of high school students across the United States parti
 * [Support](#support)
 * [Overview](#overview)
 * [The Process](#the-process)
-
+  * [Imports](#imports)
   * [Web Scrapping](#web-scraping)
   * [PDF Conversion](#pdf-conversion)
   * [Data Cleaning](#data-cleaning)
@@ -33,17 +33,21 @@ Every year over 2 million of high school students across the United States parti
 Looking for help? Send an email for direct support &lt;hizstor@gmail.com&gt;
 
 ## Overview
-
 SPC was built with PyCharm 2020.3.3 running Python 3.9.1.
 
-SPC is designed as a first step to automating the process of compiling SAT data. It will first go to the CollegeBoard website containing a PDF file for each state that holds SAT statistics including scores and demographics for the most current year. (Can be modified to collect data from previous years)
-
-Then SPC download and rename each PDF, convert it to a CSV file, clean the data and export it in a format that can be queried, organized and referenced programmatically. This combines all the data from the individual states into one source for convenient access and analysis. 
+SPC is designed as a first step to automating the process of compiling SAT data. It will scrape a specific website where individual state SAT data is maintained. The data is collected from the website reformatted and combined into a single source that can easily be referenced and analyzed. This makes it simple to compare groups of SAT takers. Comparisons can be made between states, regions, demographic groups, previous years, etc. Having the data stored in this manner also makes visualization of the data simple and modular. 
 
 
-## The Process
-describe the process
-* **imports**: List needed imports
+## Imports
+Libraries that must be imported to python environment for code to run successfully 
+
+* **pandas**: Used to build DataFrames.
+* **BeautifulSoup**: from bs4, used for web scraping.
+* **requests**: Used for web scraping.
+* **urljoin**: From urllib.parse, used for web scraping.   
+* **tabula**: Used to extract data from PDFs.
+* **glob, os**: Used to work with directories on a local machine. 
+
 
 ## Web Scraping
 explaine the webscraping process
