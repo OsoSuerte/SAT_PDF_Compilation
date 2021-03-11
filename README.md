@@ -22,10 +22,10 @@ Every year over 2 million of high school students across the United States parti
   * [Web Scrapping](#web-scraping)
   
 
-* [Current Project Team Members](#current-project-team-members)  * [Collaborators](#collaborators)
-  * [Release Keys](#release-keys)
-* [License](#license)
+* [Current Project Team Members](#current-project-team-members) 
 
+* [Collaborators](#collaborators)
+  
 ## Support
 
 Looking for help? Send an email for direct support &lt;hizstor@gmail.com&gt;
