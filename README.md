@@ -16,7 +16,7 @@ Every year over 2 million of high school students across the United States parti
 
 * [Support](#support)
 * [Overview](#overview)
-* [The Process](#the-process)
+* The Process
   * [Imports](#imports)
   * [Web Scrapping](#web-scraping)
   * [PDF Conversion](#pdf-conversion)
