@@ -35,9 +35,7 @@ Every year over 2 million of high school students across the United States parti
 
 ## Support
 
-Looking for help? Send an email for direct support
-[support](hizstor@gmail.com).
-**Support** &lt;hizstor@gmail.com&gt;
+Looking for help? Send an email for direct support &lt;hizstor@gmail.com&gt;
 
 ## Release types
 
