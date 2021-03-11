@@ -8,7 +8,10 @@
   </a>
 </p>
 
-SAT PDF Compilation designed to scrap, clean and compile data from a specific web source. It
+“SAT PDF Compilation” (SPC) is designed to scrap, clean and compile data from a specific web source. 
+
+Every year over 2 million of high school students across the United States participate in Scholastic Aptitude Tests (SATs). [CollegeBoard][] makes this data is easily accessible in PDF form by individual state but the data is not easily analyzed in this form. There is also no readily available source where the raw data can be found.
+It
 executes JavaScript code outside of a browser. For more information on using
 Node.js, see the [Node.js Website][].
 
@@ -261,6 +264,7 @@ license text.
 
 [Code of Conduct]: https://github.com/nodejs/admin/blob/master/CODE_OF_CONDUCT.md
 [Contributing to the project]: CONTRIBUTING.md
+[CollegeBoard]: https://reports.collegeboard.org/sat-suite-program-results/
 [Node.js Website]: https://nodejs.org/
 [OpenJS Foundation]: https://openjsf.org/
 [Strategic Initiatives]: https://github.com/nodejs/TSC/blob/master/Strategic-Initiatives.md
