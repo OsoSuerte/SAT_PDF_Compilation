@@ -21,7 +21,7 @@ for link in soup.select("a[href$='.pdf']"):
     with open(filename, 'wb') as f:
         f.write(requests.get(urljoin(url,link['href'])).content)
 
-# Iterates through all downloaded PDFs and converts a selected portion of each to an indivivual .csv file
+# Iterates through all downloaded PDFs and converts a selected portion of each to an individual .csv file
 all_pdf = []
 os.chdir("C:\Coding\Pycharm projects\SATS\pdfs")
 for file in glob.glob("*.pdf"):
@@ -61,7 +61,7 @@ for each in all_csv:
             all_states.update({state: current})
         except: pass
 
-# Used to export data to two files for further use. One is formated as a dictionary other as DataFrame
+# Used to export data to two files for further use. One is formatted as a dictionary other as DataFrame
 with open(r'C:\Coding\Pycharm projects\SATS\dict_output.csv', 'w') as csv_file:
     writer = csv.writer(csv_file)
     for key, value in all_states.items():
