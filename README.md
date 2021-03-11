@@ -51,7 +51,7 @@ Libraries that must be imported to python environment for code to run successful
 
 ## Web Scraping
 
-SPC will navigate to {CollegeBoard] website page that has a list of PDFs for each state and territory in the USA as well as a single PDF containing national data. Each file is identified by a .pdf href and downloaded to a local machine. The files are renamed at this time so they will be easier to reference in later steps. This will obtain the PDFs from the most recent reported year. (currently 2020) if earlier data sets are desired the code can easily be modified to collect that data from multiple years.
+SPC will navigate to [CollegeBoard] website page that has a list of PDFs for each state and territory in the USA as well as a single PDF containing national data. Each file is identified by a .pdf href and downloaded to a local machine. The files are renamed at this time so they will be easier to reference in later steps. This will obtain the PDFs from the most recent reported year. (currently 2020) if earlier data sets are desired the code can easily be modified to collect that data from multiple years.
     
 ## PDF Conversion
 
