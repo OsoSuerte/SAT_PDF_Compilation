@@ -10,8 +10,7 @@
 
 “SAT PDF Compilation” (SPC) is designed to scrap, clean and compile data from a specific web source. 
 
-Every year over 2 million of high school students across the United States participate in Scholastic Aptitude Tests (SATs). [CollegeBoard][] makes this data is easily accessible in PDF form by individual state but the data is not easily analyzed in this form. There is also no readily available source where the raw data can be found. SPC is designed to remidy this delima. 
-
+Every year over 2 million of high school students across the United States participate in Scholastic Aptitude Tests (SATs). [CollegeBoard][] makes this data easily accessible in PDF form by individual state but the data is not easily analyzed in this form. There is also no readily available source where the raw data can be found. SPC is designed to remedy this dilemma.
 
 # Table of contents
 
