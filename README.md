@@ -13,12 +13,10 @@
 Every year over 2 million of high school students across the United States participate in Scholastic Aptitude Tests (SATs). [CollegeBoard][] makes this data is easily accessible in PDF form by individual state but the data is not easily analyzed in this form. There is also no readily available source where the raw data can be found.
 
 
-**This project is bound by a [Code of Conduct][].**
-
 # Table of contents
 
 * [Support](#support)
-* [Release Types](#release-types)
+* [Web Scrapping](#web-scraping)
   * [Download](#download)
     * [Current and LTS Releases](#current-and-lts-releases)
     * [Nightly Releases](#nightly-releases)
@@ -37,7 +35,7 @@ Every year over 2 million of high school students across the United States parti
 
 Looking for help? Send an email for direct support &lt;hizstor@gmail.com&gt;
 
-## Release types
+## Web Scraping
 
 * **Current**: Under active development. Code for the Current release is in the
   branch for its major version number (for example,
