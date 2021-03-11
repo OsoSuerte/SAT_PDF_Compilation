@@ -3,7 +3,6 @@ import requests
 import pandas as pd
 import tabula
 import csv
-import sqlite3
 import glob, os
 from urllib.parse import urljoin
 
@@ -68,4 +67,3 @@ with open(r'C:\Coding\Pycharm projects\SATS\dict_output.csv', 'w') as csv_file:
        writer.writerow([key, value])
 all_states_df = pd.DataFrame(all_states)
 all_states_df.to_csv(r'C:\Coding\Pycharm projects\SATS\dataframe_output.csv', index = False)
-
