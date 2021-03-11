@@ -12,12 +12,6 @@
 
 Every year over 2 million of high school students across the United States participate in Scholastic Aptitude Tests (SATs). [CollegeBoard][] makes this data is easily accessible in PDF form by individual state but the data is not easily analyzed in this form. There is also no readily available source where the raw data can be found.
 
-It
-executes JavaScript code outside of a browser. For more information on using
-Node.js, see the [Node.js Website][].
-
-The Node.js project uses an [open governance model](./GOVERNANCE.md). The
-[OpenJS Foundation][] provides support for the project.
 
 **This project is bound by a [Code of Conduct][].**
 
@@ -41,8 +35,8 @@ The Node.js project uses an [open governance model](./GOVERNANCE.md). The
 
 ## Support
 
-Looking for help? Check out the
-[instructions for getting support](.github/SUPPORT.md).
+Looking for help? Send an email for direct support
+[support](hizstor@gmail.com).
 
 ## Release types
 
@@ -266,6 +260,7 @@ license text.
 [Code of Conduct]: https://github.com/nodejs/admin/blob/master/CODE_OF_CONDUCT.md
 [Contributing to the project]: CONTRIBUTING.md
 [CollegeBoard]: https://reports.collegeboard.org/sat-suite-program-results/
+[support]: hizstor@gmail.com/
 [Node.js Website]: https://nodejs.org/
 [OpenJS Foundation]: https://openjsf.org/
 [Strategic Initiatives]: https://github.com/nodejs/TSC/blob/master/Strategic-Initiatives.md
