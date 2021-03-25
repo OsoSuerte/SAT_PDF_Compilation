@@ -51,8 +51,7 @@ for each in all_csv:
     stats = []
     statdic = {}
     current = {}
-    #temp = list(filter(None, stats))
-    #list(filter(None, i))  temp =
+    
     for i in temp:
         ele = [item for item in i if item != '']
         stats.append(ele)
