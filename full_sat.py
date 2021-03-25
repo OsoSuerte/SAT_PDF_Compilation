@@ -39,7 +39,7 @@ for each in all_csv:
     if each == 'group.csv':  # 'group' is not used for this part of project.
         continue
     state = str(each.split('.')[0])
-    stats = []
+    temp = []
     with open(os.path.join(r"C:\Coding\Pycharm projects\SATS\csvs", each)) as data_csv:
         data = csv.reader(data_csv)
         for i in data:
@@ -47,10 +47,17 @@ for each in all_csv:
              continue
             if i[1] == 'Test Takers':
                 continue
-            stats.append(i)
-
+            temp.append(i)
+    stats = []
     statdic = {}
     current = {}
+    #temp = list(filter(None, stats))
+    #list(filter(None, i))  temp =
+    for i in temp:
+        ele = [item for item in i if item != '']
+        stats.append(ele)
+
+    #print(stats)
     for i in stats: # used to select desired data individual csv files combined for dictionary
         try:
             statdic[i[0]] = {'group': i[0], 'total': i[1].split()[0], 'percent_of_test_takers': i[1].split()[-1], 'total_mean_score': i[2], 'erw_mean_score': i[3], 'math_mean_score': i[4], 'met_both_benchmarks': i[5], 'met_erw_bench_mark': i[6].split(' ')[0], 'met_math_bench_mark': i[6].split(' ')[-1], 'met_niether_bench_mark': i[7]}
@@ -60,6 +67,8 @@ for each in all_csv:
             all_states.update({state: current})
         except: pass
 
+al = all_states['montana']['Total'] #['total_mean_score']
+print(al)
 # Used to export data to two files for further use. One is formatted as a dictionary other as DataFrame
 with open(r'C:\Coding\Pycharm projects\SATS\dict_output.csv', 'w') as csv_file:
     writer = csv.writer(csv_file)
