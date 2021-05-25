@@ -3,12 +3,12 @@
   <a href="https://Oso.com/">
     <img
       alt="Oso"
-      src="http://clipart-library.com/images/ki8pMekir.png" width="192" height="120" 
+      src="https://github.com/OsoSuerte/Logizomechanophobia/blob/master/Osos%20profile.png" width="300" height="300" 
     />
   </a>
 </p>
 
-ìSAT PDF Compilationî (SPC) is designed to scrap, clean and compile data from a specific web source. 
+‚ÄúSAT PDF Compilation‚Äù (SPC) is designed to scrap, clean and compile data from a specific web source. 
 
 Every year over 2 million of high school students across the United States participate in Scholastic Aptitude Tests (SATs). [CollegeBoard][] makes this data easily accessible in PDF form by individual state but the data is not easily analyzed in this form. There is also no readily available source where the raw data can be found. SPC is designed to remedy this dilemma.
 
